@@ -1,0 +1,35 @@
+SOLID
+======
+
+S - Single Responsibility Principle
+The single responsibility principle states that every Java class must perform a single functionality.
+Implementation of multiple functionalities in a single class mashup the code.
+
+
+Open-Closed Principle(OCP)
+
+O - The open-closed principle states that according to new requirements the module should be open for extension
+ but closed for modification.
+
+
+L - Liskov Substitution Principle
+class A is a subtype of class B, we should be able to replace B with A without disrupting the behavior of our 
+program.
+
+
+Interface Segregation Principle (ISP)
+The principle states that the larger interfaces split into smaller ones.
+Because the implementation class only use the methods that are required. 
+We should not force the client to use the methods that they do not want to use.
+
+The goal of the interface segregation principle is similar to the single responsibility principle.
+
+
+Dependency Inversion Principle
+The principle states that we must use abstraction (abstract classes and interfaces)
+instead of concrete implementations. 
+High-level modules should not depend on the low-level module but both should depend on the abst
+
+
+
+https://medium.com/@javatechie/solid-design-principle-java-ae96a48db97
